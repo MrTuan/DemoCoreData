@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720078E016DC560D00DCAA16 /* Artist.m in Sources */ = {isa = PBXBuildFile; fileRef = 720078DF16DC560D00DCAA16 /* Artist.m */; };
+		720078E316DC560E00DCAA16 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 720078E216DC560E00DCAA16 /* Album.m */; };
+		720078E616DC560E00DCAA16 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 720078E516DC560E00DCAA16 /* Label.m */; };
 		7206009F16DB4EE600A27C36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7206009E16DB4EE600A27C36 /* UIKit.framework */; };
 		720600A116DB4EE600A27C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720600A016DB4EE600A27C36 /* Foundation.framework */; };
 		720600A316DB4EE600A27C36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720600A216DB4EE600A27C36 /* CoreGraphics.framework */; };
 		720600A516DB4EE600A27C36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720600A416DB4EE600A27C36 /* CoreData.framework */; };
-		720600AB16DB4EE600A27C36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 720600A916DB4EE600A27C36 /* InfoPlist.strings */; };
 		720600AD16DB4EE600A27C36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 720600AC16DB4EE600A27C36 /* main.m */; };
 		720600B116DB4EE600A27C36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 720600B016DB4EE600A27C36 /* AppDelegate.m */; };
 		720600B316DB4EE600A27C36 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 720600B216DB4EE600A27C36 /* Default.png */; };
@@ -24,6 +26,9 @@
 		720600C516DB4EE600A27C36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720600A416DB4EE600A27C36 /* CoreData.framework */; };
 		720600CD16DB4EE600A27C36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 720600CB16DB4EE600A27C36 /* InfoPlist.strings */; };
 		720600D016DB4EE600A27C36 /* DemoCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 720600CF16DB4EE600A27C36 /* DemoCoreDataTests.m */; };
+		7242BB5D16DC6B2D007FD8A2 /* DemoCoreData-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 720600A816DB4EE600A27C36 /* DemoCoreData-Info.plist */; };
+		7265E69E16DC573F004A6506 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265E69C16DC573F004A6506 /* ViewController.m */; };
+		7265E69F16DC573F004A6506 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7265E69D16DC573F004A6506 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		720078DE16DC560D00DCAA16 /* Artist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artist.h; sourceTree = "<group>"; };
+		720078DF16DC560D00DCAA16 /* Artist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artist.m; sourceTree = "<group>"; };
+		720078E116DC560E00DCAA16 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		720078E216DC560E00DCAA16 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		720078E416DC560E00DCAA16 /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		720078E516DC560E00DCAA16 /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
 		7206009B16DB4EE600A27C36 /* DemoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7206009E16DB4EE600A27C36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		720600A016DB4EE600A27C36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +69,9 @@
 		720600CC16DB4EE600A27C36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		720600CE16DB4EE600A27C36 /* DemoCoreDataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCoreDataTests.h; sourceTree = "<group>"; };
 		720600CF16DB4EE600A27C36 /* DemoCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCoreDataTests.m; sourceTree = "<group>"; };
+		7265E69B16DC573F004A6506 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7265E69C16DC573F004A6506 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7265E69D16DC573F004A6506 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		720078E716DC561400DCAA16 /* Enity */ = {
+			isa = PBXGroup;
+			children = (
+				720078E416DC560E00DCAA16 /* Label.h */,
+				720078E516DC560E00DCAA16 /* Label.m */,
+				720078E116DC560E00DCAA16 /* Album.h */,
+				720078E216DC560E00DCAA16 /* Album.m */,
+				720078DE16DC560D00DCAA16 /* Artist.h */,
+				720078DF16DC560D00DCAA16 /* Artist.m */,
+			);
+			name = Enity;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		7206009216DB4EE600A27C36 = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +148,13 @@
 		720600A616DB4EE600A27C36 /* DemoCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				720078E716DC561400DCAA16 /* Enity */,
 				720600AF16DB4EE600A27C36 /* AppDelegate.h */,
 				720600B016DB4EE600A27C36 /* AppDelegate.m */,
 				720600B816DB4EE600A27C36 /* DemoCoreData.xcdatamodeld */,
+				7265E69B16DC573F004A6506 /* ViewController.h */,
+				7265E69C16DC573F004A6506 /* ViewController.m */,
+				7265E69D16DC573F004A6506 /* ViewController.xib */,
 				720600A716DB4EE600A27C36 /* Supporting Files */,
 			);
 			path = DemoCoreData;
@@ -232,10 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720600AB16DB4EE600A27C36 /* InfoPlist.strings in Resources */,
+				7242BB5D16DC6B2D007FD8A2 /* DemoCoreData-Info.plist in Resources */,
 				720600B316DB4EE600A27C36 /* Default.png in Resources */,
 				720600B516DB4EE600A27C36 /* Default@2x.png in Resources */,
 				720600B716DB4EE600A27C36 /* Default-568h@2x.png in Resources */,
+				7265E69F16DC573F004A6506 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +306,10 @@
 				720600AD16DB4EE600A27C36 /* main.m in Sources */,
 				720600B116DB4EE600A27C36 /* AppDelegate.m in Sources */,
 				720600BA16DB4EE600A27C36 /* DemoCoreData.xcdatamodeld in Sources */,
+				720078E016DC560D00DCAA16 /* Artist.m in Sources */,
+				720078E316DC560E00DCAA16 /* Album.m in Sources */,
+				720078E616DC560E00DCAA16 /* Label.m in Sources */,
+				7265E69E16DC573F004A6506 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +415,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoCoreData/DemoCoreData-Prefix.pch";
 				INFOPLIST_FILE = "DemoCoreData/DemoCoreData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,7 +428,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoCoreData/DemoCoreData-Prefix.pch";
 				INFOPLIST_FILE = "DemoCoreData/DemoCoreData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +488,7 @@
 				720600D516DB4EE600A27C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720600D616DB4EE600A27C36 /* Build configuration list for PBXNativeTarget "DemoCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +497,7 @@
 				720600D816DB4EE600A27C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
